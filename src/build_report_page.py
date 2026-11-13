@@ -209,4 +209,13 @@ fillCrops(); update();
 </script>
 '''
 (R / "report_page.html").write_text(html)
+# Full standalone document for GitHub Pages (docs/index.html)
+DOCS = ROOT / "docs"
+DOCS.mkdir(exist_ok=True)
+(DOCS / ".nojekyll").write_text("")
+(DOCS / "index.html").write_text(
+    '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+    '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+    "<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n</head>\n<body>\n"
+    + html + "</body>\n</html>\n")
 print(len(html) // 1024, "KB")
