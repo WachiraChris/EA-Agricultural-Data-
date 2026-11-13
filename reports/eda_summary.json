@@ -1,0 +1,85 @@
+{
+ "seed_vs_modern": [
+  {
+   "crop": "Sorghum",
+   "seed_min": 800.0,
+   "seed_max": 3000.0,
+   "modern_median": 879.8,
+   "share_inside": 0.5545454545454546,
+   "n": 110
+  },
+  {
+   "crop": "Millet",
+   "seed_min": 500.0,
+   "seed_max": 2000.0,
+   "modern_median": 907.3,
+   "share_inside": 0.6262626262626263,
+   "n": 99
+  },
+  {
+   "crop": "Cassava",
+   "seed_min": 8000.0,
+   "seed_max": 40000.0,
+   "modern_median": 9497.2,
+   "share_inside": 0.6447368421052632,
+   "n": 76
+  },
+  {
+   "crop": "Cowpea",
+   "seed_min": 300.0,
+   "seed_max": 1000.0,
+   "modern_median": 662.3,
+   "share_inside": 0.75,
+   "n": 44
+  }
+ ],
+ "rows": 4131,
+ "shortfall_rate": 0.22633744855967078,
+ "crop_rows_max_min": [
+  373,
+  115
+ ],
+ "flags": {
+  "Official figure": 2639,
+  "Estimated": 1620,
+  "External organisation": 298
+ },
+ "repeats": 283,
+ "outliers": 9,
+ "shortfall_by_rain_all": {
+  "Very dry (< -20%)": 0.2646775745909528,
+  "Dry (-20 to -10%)": 0.25669642857142855,
+  "Near normal": 0.22641509433962265,
+  "Wet (+10 to +20%)": 0.18944844124700239,
+  "Very wet (> +20%)": 0.19210053859964094
+ },
+ "shortfall_by_rain_grain": {
+  "Very dry (< -20%)": 0.3482849604221636,
+  "Dry (-20 to -10%)": 0.3,
+  "Near normal": 0.24764150943396226,
+  "Wet (+10 to +20%)": 0.1834319526627219,
+  "Very wet (> +20%)": 0.24512534818941503
+ },
+ "shortfall_by_crop": {
+  "Banana": 0.13559322033898305,
+  "Beans": 0.21983914209115282,
+  "Cassava": 0.24398625429553264,
+  "Cowpea": 0.22058823529411764,
+  "Groundnuts": 0.24594594594594596,
+  "Maize": 0.23848238482384823,
+  "Millet": 0.250814332247557,
+  "Pigeon pea": 0.22608695652173913,
+  "Potato": 0.21754385964912282,
+  "Rice": 0.2532467532467532,
+  "Sesame": 0.17894736842105263,
+  "Sorghum": 0.30494505494505497,
+  "Sweet potato": 0.1912751677852349,
+  "Wheat": 0.21194029850746268
+ },
+ "corr_ratio_trend": 0.40325670735697944,
+ "corr_ratio_rain": 0.021260287778929736,
+ "pca_variance": [
+  0.5824587978693067,
+  0.1601173722950377
+ ]
+}

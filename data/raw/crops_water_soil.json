@@ -1,0 +1,158 @@
+[
+  {
+    "id": "BOT001",
+    "category": "crop",
+    "common_name": "Sorghum (mtama)",
+    "scientific_name": "Sorghum bicolor",
+    "region": "East Africa",
+    "planting_season": "Long rains (March-May), Short rains (Oct-Nov)",
+    "soil_type": "Well-drained loamy or sandy loam, tolerates poor soils",
+    "water_requirement": "500-800mm annually, highly drought-tolerant",
+    "yield_range_kg_ha": "800-3000 depending on variety and conditions",
+    "storage_months": "12-24 months in dry conditions",
+    "uses": "Food (ugali, porridge), animal feed, brewing",
+    "source": "USDA Foreign Agricultural Service Reports 1920s (PD); Kew Gardens East Africa Survey 1910 (PD)",
+    "tags": [
+      "sorghum",
+      "drought",
+      "staple",
+      "east-africa",
+      "kilimo"
+    ]
+  },
+  {
+    "id": "BOT002",
+    "category": "crop",
+    "common_name": "Finger Millet (wimbi)",
+    "scientific_name": "Eleusine coracana",
+    "region": "East Africa highlands",
+    "planting_season": "March-April (long rains)",
+    "soil_type": "Clay loams, tolerates acidic soils where maize fails",
+    "water_requirement": "500-1000mm, drought-tolerant after establishment",
+    "yield_range_kg_ha": "500-2000",
+    "storage_months": "Up to 5 years without special treatment (natural pest resistance)",
+    "uses": "Flour, porridge, brewing (busaa), baby food",
+    "source": "Kew Gardens Economic Botany Series Vol.3 (1908, PD)",
+    "tags": [
+      "millet",
+      "storage",
+      "highlands",
+      "east-africa",
+      "food-security"
+    ]
+  },
+  {
+    "id": "BOT003",
+    "category": "crop",
+    "common_name": "Cassava (mhogo)",
+    "scientific_name": "Manihot esculenta",
+    "region": "Coastal and lowland East Africa",
+    "planting_season": "Year-round in humid areas",
+    "soil_type": "Sandy loams, poor soils tolerated",
+    "water_requirement": "500-700mm, very drought-tolerant",
+    "yield_range_kg_ha": "8000-40000 (fresh roots)",
+    "storage_months": "Cannot store roots long; process to flour within 48h of harvest",
+    "uses": "Flour (uji), leaves (mchuzi wa mhogo), starch production",
+    "source": "British East Africa Protectorate Agricultural Reports 1910-1920 (PD)",
+    "tags": [
+      "cassava",
+      "coastal",
+      "drought",
+      "food-security",
+      "east-africa"
+    ]
+  },
+  {
+    "id": "BOT004",
+    "category": "crop",
+    "common_name": "Cowpea (kunde)",
+    "scientific_name": "Vigna unguiculata",
+    "region": "All East Africa agroecological zones",
+    "planting_season": "Planted with rains",
+    "soil_type": "Wide range, fixes nitrogen",
+    "water_requirement": "300-700mm",
+    "yield_range_kg_ha": "300-1000 (grain)",
+    "storage_months": "8-12 months dry",
+    "uses": "Protein source, leaves consumed, nitrogen fixation in intercropping",
+    "source": "USDA Yearbook 1914 (PD); Agricultural Journal of British East Africa 1912 (PD)",
+    "tags": [
+      "legume",
+      "nitrogen",
+      "protein",
+      "intercrop",
+      "east-africa"
+    ]
+  },
+  {
+    "id": "BOT005",
+    "category": "tree",
+    "common_name": "Moringa (mrongo)",
+    "scientific_name": "Moringa oleifera",
+    "region": "Drylands across East Africa",
+    "planting_season": "Any — extremely hardy",
+    "soil_type": "Any, including very poor and dry",
+    "water_requirement": "250-500mm (survives drought through leaf drop)",
+    "yield_range_kg_ha": "Leaves: 10,000-30,000; Seeds: 200-500",
+    "storage_months": "Dried leaves: 12+ months",
+    "uses": "Nutrition (leaves), water purification (seeds), oil, medicine",
+    "source": "Kew Bulletin 1906 (PD); India Materia Medica 1917 (PD)",
+    "tags": [
+      "moringa",
+      "nutrition",
+      "water",
+      "dryland",
+      "east-africa"
+    ]
+  },
+  {
+    "id": "BOT006",
+    "category": "rainfall",
+    "zone": "Semi-arid lowlands (< 500mm)",
+    "regions": "Northern Kenya, NE Tanzania, Southern Ethiopia",
+    "typical_crops": "Sorghum, cowpea, millet, pigeon pea",
+    "risk_factors": "Rainfall variability high; drought every 3-5 years historically",
+    "traditional_practice": "Mixed livestock-crop farming; storage in granaries (galla)",
+    "source": "East Africa Meteorological Department Records 1900-1940 (PD)",
+    "tags": [
+      "rainfall",
+      "semi-arid",
+      "drought",
+      "risk",
+      "planning"
+    ]
+  },
+  {
+    "id": "BOT007",
+    "category": "soil",
+    "soil_type": "Red clay (Nitosols/Ferralsols)",
+    "regions": "Central Kenya highlands, Rwenzori foothills",
+    "characteristics": "Highly weathered, acidic pH 5-6, low phosphorus",
+    "suitable_crops": "Tea, coffee, maize (with lime), pyrethrum, potatoes",
+    "management": "Lime application, organic matter addition, terracing",
+    "source": "Kenya Soil Survey Reports 1910-1920 (PD); Tothill Agricultural Manual 1918 (PD)",
+    "tags": [
+      "soil",
+      "highlands",
+      "kenya",
+      "fertility",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "BOT008",
+    "category": "water",
+    "feature": "Seasonal river (sand river)",
+    "regions": "Dryland East Africa",
+    "characteristic": "Flows only during rains; subsurface water year-round in sandy bed",
+    "traditional_use": "Subsurface water harvesting; sand dams (traditional practice predates 1900)",
+    "modern_application": "Sand dam construction; borehole siting in riverbed",
+    "source": "Johnston, British East Africa (1897, PD); various colonial survey reports",
+    "tags": [
+      "water",
+      "dryland",
+      "sand-river",
+      "harvesting",
+      "kenya"
+    ]
+  }
+]

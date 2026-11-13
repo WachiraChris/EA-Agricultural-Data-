@@ -1,0 +1,852 @@
+{
+ "data": {
+  "rows": 4131,
+  "train_rows": 2913,
+  "test_rows": 1218,
+  "train_years": [
+   1981,
+   2012
+  ],
+  "test_years": [
+   2013,
+   2024
+  ],
+  "features": 27,
+  "shortfall_rate_train": 0.23,
+  "shortfall_rate_test": 0.2176,
+  "class_counts_train": {
+   "normal": 2243,
+   "shortfall": 670
+  }
+ },
+ "classifier": {
+  "selected_model": "Logistic regression",
+  "selected_balancing": "Random undersampling",
+  "threshold": 0.4961,
+  "cv": [
+   {
+    "model": "Logistic regression",
+    "balancing": "None",
+    "pr_auc": 0.4514,
+    "roc_auc": 0.7051,
+    "balanced_accuracy": 0.5769,
+    "f1": 0.2963,
+    "recall": 0.2032,
+    "precision": 0.5468,
+    "brier": 0.1554
+   },
+   {
+    "model": "Logistic regression",
+    "balancing": "Class weights",
+    "pr_auc": 0.4537,
+    "roc_auc": 0.7078,
+    "balanced_accuracy": 0.6699,
+    "f1": 0.4833,
+    "recall": 0.5802,
+    "precision": 0.4141,
+    "brier": 0.2037
+   },
+   {
+    "model": "Logistic regression",
+    "balancing": "Random oversampling",
+    "pr_auc": 0.4459,
+    "roc_auc": 0.7045,
+    "balanced_accuracy": 0.6664,
+    "f1": 0.4779,
+    "recall": 0.5936,
+    "precision": 0.4,
+    "brier": 0.2081
+   },
+   {
+    "model": "Logistic regression",
+    "balancing": "SMOTE",
+    "pr_auc": 0.4427,
+    "roc_auc": 0.7045,
+    "balanced_accuracy": 0.6558,
+    "f1": 0.4647,
+    "recall": 0.5802,
+    "precision": 0.3875,
+    "brier": 0.2084
+   },
+   {
+    "model": "Logistic regression",
+    "balancing": "Random undersampling",
+    "pr_auc": 0.4532,
+    "roc_auc": 0.7102,
+    "balanced_accuracy": 0.6746,
+    "f1": 0.487,
+    "recall": 0.6257,
+    "precision": 0.3986,
+    "brier": 0.2095
+   },
+   {
+    "model": "Random forest",
+    "balancing": "None",
+    "pr_auc": 0.4426,
+    "roc_auc": 0.7059,
+    "balanced_accuracy": 0.5677,
+    "f1": 0.2664,
+    "recall": 0.1738,
+    "precision": 0.5702,
+    "brier": 0.155
+   },
+   {
+    "model": "Random forest",
+    "balancing": "Class weights",
+    "pr_auc": 0.4373,
+    "roc_auc": 0.7086,
+    "balanced_accuracy": 0.6766,
+    "f1": 0.4957,
+    "recall": 0.5428,
+    "precision": 0.4562,
+    "brier": 0.1857
+   },
+   {
+    "model": "Random forest",
+    "balancing": "Random oversampling",
+    "pr_auc": 0.437,
+    "roc_auc": 0.7038,
+    "balanced_accuracy": 0.6777,
+    "f1": 0.5013,
+    "recall": 0.5027,
+    "precision": 0.5,
+    "brier": 0.1756
+   },
+   {
+    "model": "Random forest",
+    "balancing": "SMOTE",
+    "pr_auc": 0.4301,
+    "roc_auc": 0.7039,
+    "balanced_accuracy": 0.6692,
+    "f1": 0.4891,
+    "recall": 0.4786,
+    "precision": 0.5,
+    "brier": 0.1716
+   },
+   {
+    "model": "Random forest",
+    "balancing": "Random undersampling",
+    "pr_auc": 0.4313,
+    "roc_auc": 0.7068,
+    "balanced_accuracy": 0.6741,
+    "f1": 0.4857,
+    "recall": 0.6364,
+    "precision": 0.3927,
+    "brier": 0.2105
+   },
+   {
+    "model": "Gradient boosting",
+    "balancing": "None",
+    "pr_auc": 0.4154,
+    "roc_auc": 0.6887,
+    "balanced_accuracy": 0.5873,
+    "f1": 0.3272,
+    "recall": 0.238,
+    "precision": 0.5235,
+    "brier": 0.1598
+   },
+   {
+    "model": "Gradient boosting",
+    "balancing": "Class weights",
+    "pr_auc": 0.4159,
+    "roc_auc": 0.6894,
+    "balanced_accuracy": 0.6671,
+    "f1": 0.4808,
+    "recall": 0.5535,
+    "precision": 0.4251,
+    "brier": 0.193
+   },
+   {
+    "model": "Gradient boosting",
+    "balancing": "Random oversampling",
+    "pr_auc": 0.4057,
+    "roc_auc": 0.6893,
+    "balanced_accuracy": 0.6709,
+    "f1": 0.4864,
+    "recall": 0.5508,
+    "precision": 0.4355,
+    "brier": 0.1908
+   },
+   {
+    "model": "Gradient boosting",
+    "balancing": "SMOTE",
+    "pr_auc": 0.4059,
+    "roc_auc": 0.7055,
+    "balanced_accuracy": 0.6263,
+    "f1": 0.4155,
+    "recall": 0.3449,
+    "precision": 0.5223,
+    "brier": 0.161
+   },
+   {
+    "model": "Gradient boosting",
+    "balancing": "Random undersampling",
+    "pr_auc": 0.415,
+    "roc_auc": 0.681,
+    "balanced_accuracy": 0.6528,
+    "f1": 0.4606,
+    "recall": 0.6016,
+    "precision": 0.3731,
+    "brier": 0.2122
+   }
+  ],
+  "test": {
+   "pr_auc": 0.6196,
+   "roc_auc": 0.8067,
+   "balanced_accuracy": 0.7234,
+   "f1": 0.5631,
+   "recall": 0.5811,
+   "precision": 0.5461,
+   "brier": 0.1523
+  },
+  "test_ci": {
+   "roc_auc": [
+    0.7724,
+    0.8361
+   ],
+   "pr_auc": [
+    0.5581,
+    0.6764
+   ]
+  },
+  "test_without_balancing": {
+   "pr_auc": 0.6291,
+   "roc_auc": 0.8085,
+   "balanced_accuracy": 0.6232,
+   "f1": 0.3977,
+   "recall": 0.2642,
+   "precision": 0.8046,
+   "brier": 0.1285
+  },
+  "test_no_skill": {
+   "pr_auc": 0.2176,
+   "roc_auc": 0.5,
+   "balanced_accuracy": 0.5,
+   "recall": 0.0,
+   "brier": 0.1704
+  },
+  "confusion": {
+   "tn": 825,
+   "fp": 128,
+   "fn": 111,
+   "tp": 154
+  },
+  "roc": {
+   "fpr": [
+    0.0,
+    0.0021,
+    0.0042,
+    0.0073,
+    0.0094,
+    0.0126,
+    0.0147,
+    0.0189,
+    0.021,
+    0.0262,
+    0.0294,
+    0.0367,
+    0.0399,
+    0.043,
+    0.0504,
+    0.0598,
+    0.063,
+    0.0714,
+    0.0735,
+    0.0776,
+    0.0797,
+    0.086,
+    0.0913,
+    0.1081,
+    0.1196,
+    0.1291,
+    0.1322,
+    0.1469,
+    0.1522,
+    0.1616,
+    0.1721,
+    0.1952,
+    0.2004,
+    0.2078,
+    0.2099,
+    0.2172,
+    0.2319,
+    0.2613,
+    0.2634,
+    0.2875,
+    0.2896,
+    0.3022,
+    0.3064,
+    0.3274,
+    0.3568,
+    0.3694,
+    0.4008,
+    0.4323,
+    0.4627,
+    0.5331,
+    0.5467,
+    0.5635,
+    0.5708,
+    0.5782,
+    0.6118,
+    0.6537,
+    0.6905,
+    0.7587,
+    0.7807,
+    0.8017,
+    0.8164,
+    0.8888,
+    0.9087,
+    1.0,
+    1.0
+   ],
+   "tpr": [
+    0.0,
+    0.1094,
+    0.1623,
+    0.1887,
+    0.2038,
+    0.2302,
+    0.2566,
+    0.2679,
+    0.2906,
+    0.3132,
+    0.3358,
+    0.3585,
+    0.3736,
+    0.4,
+    0.4189,
+    0.4264,
+    0.4377,
+    0.4528,
+    0.4679,
+    0.4755,
+    0.4868,
+    0.4981,
+    0.5094,
+    0.5321,
+    0.5547,
+    0.5623,
+    0.5736,
+    0.5849,
+    0.5962,
+    0.6038,
+    0.6189,
+    0.6377,
+    0.6528,
+    0.6604,
+    0.6717,
+    0.6792,
+    0.7132,
+    0.7245,
+    0.7358,
+    0.7472,
+    0.766,
+    0.7811,
+    0.7925,
+    0.8038,
+    0.8151,
+    0.8226,
+    0.834,
+    0.8415,
+    0.8566,
+    0.8642,
+    0.8755,
+    0.883,
+    0.8943,
+    0.9019,
+    0.9132,
+    0.9208,
+    0.9321,
+    0.9396,
+    0.9509,
+    0.9585,
+    0.9736,
+    0.9811,
+    0.9925,
+    1.0,
+    1.0
+   ]
+  },
+  "pr": {
+   "recall": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.9962,
+    0.9887,
+    0.9774,
+    0.9736,
+    0.9736,
+    0.9736,
+    0.9585,
+    0.9509,
+    0.9434,
+    0.9358,
+    0.9358,
+    0.9358,
+    0.9283,
+    0.9283,
+    0.9208,
+    0.917,
+    0.9094,
+    0.9094,
+    0.8906,
+    0.883,
+    0.8679,
+    0.8642,
+    0.8566,
+    0.8566,
+    0.8453,
+    0.8453,
+    0.8377,
+    0.8302,
+    0.8264,
+    0.8151,
+    0.8113,
+    0.8038,
+    0.7849,
+    0.7623,
+    0.7434,
+    0.7245,
+    0.7132,
+    0.7057,
+    0.6717,
+    0.6415,
+    0.6264,
+    0.6075,
+    0.5887,
+    0.5736,
+    0.5434,
+    0.5321,
+    0.5057,
+    0.4717,
+    0.4377,
+    0.4151,
+    0.3736,
+    0.3358,
+    0.2906,
+    0.2453,
+    0.1925,
+    0.1321,
+    0.0642
+   ],
+   "precision": [
+    0.2176,
+    0.2212,
+    0.225,
+    0.2288,
+    0.232,
+    0.2343,
+    0.2359,
+    0.2393,
+    0.2439,
+    0.2486,
+    0.2495,
+    0.2525,
+    0.2556,
+    0.2589,
+    0.2644,
+    0.2702,
+    0.2739,
+    0.2802,
+    0.2844,
+    0.29,
+    0.2946,
+    0.302,
+    0.3033,
+    0.3087,
+    0.3117,
+    0.3189,
+    0.3252,
+    0.3348,
+    0.3404,
+    0.3511,
+    0.3592,
+    0.3679,
+    0.3789,
+    0.3871,
+    0.3996,
+    0.4112,
+    0.4177,
+    0.4226,
+    0.4301,
+    0.4384,
+    0.4522,
+    0.4698,
+    0.4709,
+    0.4749,
+    0.4911,
+    0.5063,
+    0.5235,
+    0.5468,
+    0.5581,
+    0.5924,
+    0.6147,
+    0.6313,
+    0.6517,
+    0.6962,
+    0.7174,
+    0.7542,
+    0.7857,
+    0.8333,
+    0.8793,
+    0.9211,
+    0.9444
+   ]
+  },
+  "risk_bands": [
+   {
+    "band": "Low",
+    "n": 687,
+    "observed_rate": 0.0742,
+    "mean_score": 0.2269
+   },
+   {
+    "band": "Moderate",
+    "n": 252,
+    "observed_rate": 0.246,
+    "mean_score": 0.4141
+   },
+   {
+    "band": "High",
+    "n": 103,
+    "observed_rate": 0.3495,
+    "mean_score": 0.566
+   },
+   {
+    "band": "Very high",
+    "n": 176,
+    "observed_rate": 0.6591,
+    "mean_score": 0.7932
+   }
+  ],
+  "ablation": {
+   "Yield history only": 0.8199,
+   "Weather and location only": 0.6136,
+   "All features": 0.8067
+  },
+  "per_crop": [
+   {
+    "crop": "Banana",
+    "n": 81,
+    "shortfalls": 11,
+    "roc_auc": 0.7805,
+    "recall": 0.5455,
+    "precision": 0.5
+   },
+   {
+    "crop": "Beans",
+    "n": 116,
+    "shortfalls": 19,
+    "roc_auc": 0.8437,
+    "recall": 0.6842,
+    "precision": 0.5652
+   },
+   {
+    "crop": "Cassava",
+    "n": 79,
+    "shortfalls": 18,
+    "roc_auc": 0.7477,
+    "recall": 0.3333,
+    "precision": 0.3529
+   },
+   {
+    "crop": "Cowpea",
+    "n": 45,
+    "shortfalls": 10,
+    "roc_auc": 0.8343,
+    "recall": 0.6,
+    "precision": 0.6667
+   },
+   {
+    "crop": "Groundnuts",
+    "n": 115,
+    "shortfalls": 24,
+    "roc_auc": 0.7917,
+    "recall": 0.625,
+    "precision": 0.5556
+   },
+   {
+    "crop": "Maize",
+    "n": 107,
+    "shortfalls": 25,
+    "roc_auc": 0.8332,
+    "recall": 0.64,
+    "precision": 0.5517
+   },
+   {
+    "crop": "Millet",
+    "n": 88,
+    "shortfalls": 17,
+    "roc_auc": 0.7084,
+    "recall": 0.4706,
+    "precision": 0.4211
+   },
+   {
+    "crop": "Pigeon pea",
+    "n": 46,
+    "shortfalls": 11,
+    "roc_auc": 0.8416,
+    "recall": 0.6364,
+    "precision": 0.7
+   },
+   {
+    "crop": "Potato",
+    "n": 75,
+    "shortfalls": 19,
+    "roc_auc": 0.8299,
+    "recall": 0.5789,
+    "precision": 0.6471
+   },
+   {
+    "crop": "Rice",
+    "n": 96,
+    "shortfalls": 31,
+    "roc_auc": 0.8744,
+    "recall": 0.6774,
+    "precision": 0.6774
+   },
+   {
+    "crop": "Sesame",
+    "n": 89,
+    "shortfalls": 12,
+    "roc_auc": 0.7673,
+    "recall": 0.5,
+    "precision": 0.5
+   },
+   {
+    "crop": "Sorghum",
+    "n": 102,
+    "shortfalls": 34,
+    "roc_auc": 0.7565,
+    "recall": 0.6176,
+    "precision": 0.5526
+   },
+   {
+    "crop": "Sweet potato",
+    "n": 89,
+    "shortfalls": 22,
+    "roc_auc": 0.7944,
+    "recall": 0.5455,
+    "precision": 0.6
+   },
+   {
+    "crop": "Wheat",
+    "n": 90,
+    "shortfalls": 12,
+    "roc_auc": 0.7585,
+    "recall": 0.5,
+    "precision": 0.3333
+   }
+  ],
+  "importance": [
+   {
+    "feature": "yield_cv5",
+    "label": "Yield variability (5 years)",
+    "importance": 0.0607,
+    "sd": 0.0087
+   },
+   {
+    "feature": "yield_trend5",
+    "label": "Last year vs 5-year average",
+    "importance": 0.0564,
+    "sd": 0.0063
+   },
+   {
+    "feature": "prev_shortfall",
+    "label": "Shortfall last year",
+    "importance": 0.0519,
+    "sd": 0.0062
+   },
+   {
+    "feature": "rain_annual",
+    "label": "Annual rainfall",
+    "importance": 0.0406,
+    "sd": 0.0063
+   },
+   {
+    "feature": "temp_max",
+    "label": "Hottest month max temp",
+    "importance": 0.0368,
+    "sd": 0.0094
+   },
+   {
+    "feature": "log_yield_mean5",
+    "label": "5-year average yield",
+    "importance": 0.0268,
+    "sd": 0.0057
+   },
+   {
+    "feature": "rain_ond",
+    "label": "Oct-Dec rainfall",
+    "importance": 0.0231,
+    "sd": 0.0072
+   },
+   {
+    "feature": "crop_group",
+    "label": "Crop group",
+    "importance": 0.0208,
+    "sd": 0.0058
+   },
+   {
+    "feature": "log_yield_lag1",
+    "label": "Last year's yield",
+    "importance": 0.0158,
+    "sd": 0.0046
+   },
+   {
+    "feature": "rain_z",
+    "label": "Rainfall anomaly (z-score)",
+    "importance": 0.0153,
+    "sd": 0.0049
+   },
+   {
+    "feature": "country",
+    "label": "Country",
+    "importance": 0.0126,
+    "sd": 0.0032
+   },
+   {
+    "feature": "rain_clim",
+    "label": "Normal rainfall (1981-2010)",
+    "importance": 0.0125,
+    "sd": 0.0025
+   },
+   {
+    "feature": "temp_clim",
+    "label": "Normal temperature (1981-2010)",
+    "importance": 0.0123,
+    "sd": 0.0024
+   },
+   {
+    "feature": "temp_mean",
+    "label": "Mean temperature",
+    "importance": 0.0107,
+    "sd": 0.0022
+   },
+   {
+    "feature": "crop",
+    "label": "Crop",
+    "importance": 0.0095,
+    "sd": 0.0053
+   },
+   {
+    "feature": "rain_concentration",
+    "label": "Share of rain in wettest month",
+    "importance": 0.0063,
+    "sd": 0.0025
+   },
+   {
+    "feature": "rain_jjas",
+    "label": "Jun-Sep rainfall",
+    "importance": 0.0061,
+    "sd": 0.002
+   },
+   {
+    "feature": "dry_months",
+    "label": "Dry months (<30 mm)",
+    "importance": 0.0058,
+    "sd": 0.0022
+   },
+   {
+    "feature": "rain_anom_prev",
+    "label": "Previous year's rainfall vs normal (%)",
+    "importance": 0.0053,
+    "sd": 0.0019
+   },
+   {
+    "feature": "main_season",
+    "label": "Main rainy season",
+    "importance": 0.0045,
+    "sd": 0.0016
+   },
+   {
+    "feature": "temp_min",
+    "label": "Coldest month min temp",
+    "importance": 0.0038,
+    "sd": 0.0022
+   },
+   {
+    "feature": "log_area_lag1",
+    "label": "Harvested area (last year)",
+    "importance": 0.0029,
+    "sd": 0.0015
+   },
+   {
+    "feature": "temp_anom",
+    "label": "Temperature vs normal",
+    "importance": 0.0013,
+    "sd": 0.0004
+   },
+   {
+    "feature": "year",
+    "label": "Year",
+    "importance": -0.0002,
+    "sd": 0.0006
+   },
+   {
+    "feature": "rain_anom_pct",
+    "label": "Rainfall vs normal (%)",
+    "importance": -0.0009,
+    "sd": 0.0027
+   },
+   {
+    "feature": "main_season_anom_pct",
+    "label": "Main-season rainfall vs normal (%)",
+    "importance": -0.0018,
+    "sd": 0.0018
+   },
+   {
+    "feature": "rain_mam",
+    "label": "Mar-May rainfall",
+    "importance": -0.0024,
+    "sd": 0.0031
+   }
+  ]
+ },
+ "regressor": {
+  "selected_model": "Gradient boosting",
+  "cv": [
+   {
+    "model": "Ridge regression",
+    "cv_mae_log_ratio": 0.1712,
+    "cv_mae_kg_ha": 477.2111
+   },
+   {
+    "model": "Random forest",
+    "cv_mae_log_ratio": 0.1698,
+    "cv_mae_kg_ha": 456.1642
+   },
+   {
+    "model": "Gradient boosting",
+    "cv_mae_log_ratio": 0.1656,
+    "cv_mae_kg_ha": 442.2494
+   }
+  ],
+  "test": {
+   "model": {
+    "mae_kg_ha": 467.7387,
+    "median_pct_error": 6.0936,
+    "r2_log_yield": 0.9738,
+    "r2_ratio": 0.2419
+   },
+   "baseline_5yr_mean": {
+    "mae_kg_ha": 594.9702,
+    "median_pct_error": 8.5723,
+    "r2_log_yield": 0.9655,
+    "r2_ratio": -0.0005
+   },
+   "baseline_last_year": {
+    "mae_kg_ha": 416.0048,
+    "median_pct_error": 4.8977,
+    "r2_log_yield": 0.9732,
+    "r2_ratio": 0.2229
+   }
+  },
+  "resid_q": [
+   -0.2396,
+   0.2461
+  ]
+ }
+}

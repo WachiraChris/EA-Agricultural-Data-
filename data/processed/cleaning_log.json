@@ -1,0 +1,61 @@
+{
+  "seed_records": 8,
+  "seed_categories": {
+    "crop": 4,
+    "tree": 1,
+    "rainfall": 1,
+    "soil": 1,
+    "water": 1
+  },
+  "fao_rows_selected": 15232,
+  "dropped_missing_yield": 11,
+  "dropped_area_under_500ha": 45,
+  "yield_vs_production_area_mismatch_over_5pct": 0,
+  "flagged_repeat_values": 305,
+  "flagged_outliers": 9,
+  "yield_flag_counts": {
+    "A": 2907,
+    "E": 1815,
+    "X": 300
+  },
+  "climate_missing_cells": 0,
+  "soil": "not available (SoilGrids did not respond)",
+  "dropped_repeat_or_outlier_targets": 292,
+  "dropped_insufficient_history": 134,
+  "model_rows": 4131,
+  "model_years": [
+    1981,
+    2024
+  ],
+  "shortfall_rate": 0.2263,
+  "rows_per_crop": {
+    "Beans": 373,
+    "Groundnuts": 370,
+    "Maize": 369,
+    "Sorghum": 364,
+    "Wheat": 335,
+    "Rice": 308,
+    "Millet": 307,
+    "Sweet potato": 298,
+    "Banana": 295,
+    "Cassava": 291,
+    "Potato": 285,
+    "Sesame": 285,
+    "Cowpea": 136,
+    "Pigeon pea": 115
+  },
+  "rows_per_country": {
+    "Tanzania": 579,
+    "Kenya": 578,
+    "Uganda": 538,
+    "Burundi": 492,
+    "Rwanda": 474,
+    "Somalia": 387,
+    "Sudan (former)": 348,
+    "Ethiopia": 303,
+    "Eritrea": 162,
+    "Sudan": 113,
+    "Ethiopia PDR": 85,
+    "South Sudan": 72
+  }
+}
